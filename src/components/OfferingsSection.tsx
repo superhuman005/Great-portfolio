@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Rocket, Wrench, Lightbulb, ArrowRight, CheckCircle2, Users } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+
 
 const OfferingsSection = () => {
   return (
@@ -116,10 +123,13 @@ const OfferingsSection = () => {
                 </div>
 
                 <div className="flex justify-center pt-4">
+                  <Link to="/intrapreneurship-training">
                   <Button className="bg-gradient-hero hover:opacity-90">
+                    
                     Learn More About Training
                     <ArrowRight className="ml-2" size={16} />
                   </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
