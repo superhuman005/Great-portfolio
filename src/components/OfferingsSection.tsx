@@ -290,10 +290,12 @@ const OfferingsSection = () => {
                     Every organization is unique. We work with you to design bespoke interventions that 
                     align with your strategic goals, culture, and innovation ambitions.
                   </p>
+                   <Link to="/#">
                   <Button className="bg-gradient-hero hover:opacity-90">
                     Schedule a Consultation
                     <ArrowRight className="ml-2" size={16} />
                   </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
