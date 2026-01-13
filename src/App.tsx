@@ -12,7 +12,7 @@ import MentorMap from "./pages/MentorMap";
 import InnovationLabs from "./pages/InnovationLabs";
 import BeingsphereMethod from "./pages/BeingsphereMethod";
 import CaseStudies from "./pages/CaseStudies";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const queryClient = new QueryClient();
 
