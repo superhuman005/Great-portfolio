@@ -16,7 +16,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/beingsphere"
                 className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
               >
                 <Linkedin size={20} />
@@ -28,7 +28,7 @@ const Footer = () => {
                 <Youtube size={20} />
               </a>
               <a
-                href="#"
+                href="mailto:info@beingsphereint.com"
                 className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
               >
                 <Mail size={20} />
@@ -95,8 +95,8 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Get in Touch</h3>
             <ul className="space-y-2 text-white/80">
               <li>
-                <a href="mailto:hello@beingsphere.com" className="hover:text-white transition-colors">
-                  hello@beingsphere.com
+                <a href="mailto:info@beingsphereint.com" className="hover:text-white transition-colors">
+                  info@beingsphereint.com
                 </a>
               </li>
               <li>

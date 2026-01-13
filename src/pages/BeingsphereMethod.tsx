@@ -21,7 +21,7 @@ const BeingsphereMethod = () => {
               Our Proprietary Framework for Transforming People & Performance
             </p>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              The Beingsphere Method is a proven system that transforms how individuals, teams, and organizations think, operate, and create value—at scale.
+              The Beingsphere Method is a proven system that transforms how individuals, teams, and organizations think, operate, and create value at scale.
             </p>
             <Button size="lg" className="text-lg px-8">
               See The Method in Action
@@ -87,7 +87,7 @@ const BeingsphereMethod = () => {
               <FileText className="w-16 h-16 text-primary mx-auto mb-6" />
               <h3 className="text-3xl font-bold mb-4">Policy</h3>
               <p className="text-muted-foreground text-lg mb-6">
-                Embed structural changes that sustain culture, reward ownership, and enable long-term success.
+                Embed structural changes that sustain culture, reward ownership, and enable long term success.
               </p>
               <div className="text-left space-y-3 text-sm">
                 <div className="flex items-start gap-2">

@@ -29,7 +29,8 @@ const CommunitySection = () => {
               Become a certified Intrapreneur Coach and lead transformation initiatives in organizations.
             </p>
             <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
-              Learn About Certification
+              {/* Learn About Certification */}
+              Coming soon
               <ArrowRight className="ml-2" size={16} />
             </Button>
           </Card>
@@ -43,7 +44,8 @@ const CommunitySection = () => {
               Connect with fellow intrapreneurs, share insights, and collaborate on building better organizations.
             </p>
             <Button variant="outline" className="w-full border-secondary text-secondary hover:bg-secondary/10">
-              Join the Community
+              {/* Join the Community */}
+              Coming soon
               <ArrowRight className="ml-2" size={16} />
             </Button>
           </Card>
@@ -56,10 +58,13 @@ const CommunitySection = () => {
             <p className="text-muted-foreground mb-6">
               Stay updated with insights, case studies, and thought leadership on intrapreneurship and ownership.
             </p>
+
+            <a href="https://www.linkedin.com/company/beingsphere" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
               Follow Us
               <ArrowRight className="ml-2" size={16} />
             </Button>
+            </a>
           </Card>
         </div>
 

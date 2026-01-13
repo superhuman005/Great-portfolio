@@ -24,7 +24,8 @@ const MentorMap = () => {
               Connect your people, transfer knowledge, and strengthen culture through intelligent mentor-mentee matching and relationship management.
             </p>
             <Button size="lg" className="text-lg px-8">
-              Bring MentorMap to Your Company
+              Bring MentorMap to Your Company <br></br>
+              JOIN THE WAITLIST
             </Button>
           </div>
         </div>

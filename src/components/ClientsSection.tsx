@@ -7,25 +7,25 @@ const clientTypes = [
     icon: Building2,
     title: "Tech Startups",
     description: "Building for scale with innovation at their core",
-    stats: "50+ startups transformed",
+    // stats: "50+ startups transformed",
   },
   {
     icon: Landmark,
     title: "Banks & Fintechs",
     description: "Seeking product culture and internal innovation",
-    stats: "12 financial institutions",
+    // stats: "12 financial institutions",
   },
   {
     icon: Factory,
     title: "FMCGs",
     description: "Large teams needing ownership mindsets",
-    stats: "20+ enterprise clients",
+    // stats: "20+ enterprise clients",
   },
   {
     icon: Globe,
     title: "Government & Public Sector",
     description: "Driving innovation in systems and processes",
-    stats: "8 government agencies",
+    // stats: "8 government agencies",
   },
 ];
 
@@ -56,7 +56,7 @@ const ClientsSection = () => {
               </div>
               <h3 className="font-bold text-xl mb-2">{client.title}</h3>
               <p className="text-muted-foreground mb-4 text-sm">{client.description}</p>
-              <div className="text-sm font-semibold text-primary">{client.stats}</div>
+              {/* <div className="text-sm font-semibold text-primary">{client.stats}</div> */}
             </div>
           ))}
         </div>
