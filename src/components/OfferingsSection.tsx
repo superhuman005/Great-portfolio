@@ -166,7 +166,8 @@ const OfferingsSection = () => {
                       </li>
                     </ul>
                     <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
-                      Try Reflect+Goal
+                      {/* Try Reflect+Goal */}
+                       Coming Soon
                     </Button>
                   </div>
 
@@ -184,7 +185,18 @@ const OfferingsSection = () => {
                         <CheckCircle2 className="text-primary mt-1 flex-shrink-0" size={16} />
                         <span className="text-sm">Solution mapping</span>
                       </li>
-                    </ul>
+                      </ul>
+
+                      <Link to="ownership-canvas">
+                      <Button
+                      variant="outline" 
+                    className="w-full border-primary text-primary hover:bg-primary/10"
+                    >
+              
+                       See more
+                    </Button>
+                    </Link>
+
                   </div>
 
                   <div className="p-6 bg-muted rounded-lg">
@@ -202,6 +214,16 @@ const OfferingsSection = () => {
                         <span className="text-sm">Progress tracking</span>
                       </li>
                     </ul>
+
+                    {/* <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary/10"> */}
+                       <Link to="mentor-map">
+                      <Button
+                      variant="outline" 
+                    className="w-full border-primary text-primary hover:bg-primary/10"
+                    >
+                       See more
+                    </Button>
+                    </Link>
                   </div>
 
                   <div className="p-6 bg-gradient-secondary rounded-lg text-secondary-foreground">
